@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Petr Ivanov - WEB-developer - CV</title>
+
+    <!-- CDN -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css" rel="stylesheet"> -->
+    <!-- <link href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" rel="stylesheet" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet"> -->
+
+    <!-- Local -->
+    <!-- Simplebar v4.2.3 -->
+    <link href="./css/simplebar.css" rel="stylesheet">
+    <!-- Font Awesome Free 5.11.2 -->
+    <link href="./css/fontawesome.all.min.css" rel="stylesheet">
+    <!-- PrismJS 1.17.1 -->
+    <link href="./css/prism.css" rel="stylesheet">
+    
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/ie.css" rel="stylesheet">
+
+</head>
+<body class="color-bg-page-dark">
+
+    <div class="container color-bg-page-dark">
+        
+        <header class="header">
+
+            <input type="checkbox" id="hmt" class="hidden-menu__ticker">
+            <label class="btn-menu" for="hmt">
+                <span class="first"></span>
+                <span class="second"></span>
+                <span class="third"></span>
+            </label>
+            <!-- Менюшка раскрывающаяся и скрывающаяся -->
+            <nav class="hidden-menu">
+                <ul>
+                    <li>
+                        <label class="btn-menu-inner" for="hmt">
+                            <span class="first-inner"></span>
+                            <span class="second-inner"></span>
+                            <span class="third-inner"></span>
+                        </label>
+                    </li>
+                    <li><a href="#about" data-link="#about">Обо мне</a></li>
+                    <li><a href="#experience" data-link="#experience">Опыт работы</a></li>
+                    <li><a href="#skills" data-link="#skills">Что я умею</a></li>
+                    <li><a href="#features" data-link="#features">Почему именно я?</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header__title">
+                Petr Ivanov / Profile
+            </div>
+            <!-- /.header__title -->
+            
+            <div class="header__i18n">
+                <span class="item active">Ru</span>
+                <span class="item"><a href="en.html" title="English">En</a></span>
+            </div>
+            
+        </header>
+        <!-- /.header -->
+        
+        <div class="row">
+            
+            <div class="sidebar" data-simplebar>
+                <div class="sidebar__top"></div>
+                <div class="sidebar__photo">
+                    <span class="sidebar__status" title="Открыт к предложениям!"></span>
+                </div>
+                <div class="sidebar__profile">
+                    <h2>Петр Иванов</h2>
+                    <h3>WEB-разработчик</h3>
+                    <strong>
+                        <i class="fab fa-html5" title="HTML5"></i>
+                        <i class="fab fa-css3-alt" title="CSS3"></i>
+                        <i class="fab fa-php" title="PHP"></i>
+                        [<i class="fab fa-laravel" title="Laravel"></i>
+                        <i class="fab fa-modx" title="ModX"></i>]
+                        <i class="fab fa-js-square" title="JavaScript"></i>
+                        [<i class="fab fa-vuejs" title="Vue"></i>
+                        <i class="fab fa-react" title="React"></i>
+                        <i class="fab fa-node-js" title="NodeJS"></i>]
+                    </strong>
+                    <ul>
+                        <li><i class="fas fa-globe"></i> Фрилансер</li>
+                        <li><i class="fab fa-google"></i> your-account@gmail.com</li>
+                        <li><i class="fab fa-linkedin"></i> <a href="#" target="_blank">www.linkedin.com/in/your-profile</a></li>
+                        <li><i class="fab fa-github"></i> <a href="#" target="_blank">https://github.com/your-account</a></li>
+                        <li><i class="fas fa-file-pdf"></i> <a href="./files/petr_ivanov_CV.pdf">CV <em>(file)</em></a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> Минск, Беларусь</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.sidebar -->
+
+            <main class="main" id="main">
+                
+                <section class="main__section">
+                    <h3 id="about">Обо мне: <span class="typed-cursor">_</span></h3>
+                    <pre class="line-numbers"><code class="language-php">class About {
+    public function __construct() {
+
+        echo 'Hello, World!';
+        echo 'Меня зовут Петр и я веб-разработчик.';
+        
+        echo 'Занимаюсь веб-разработкой с ... 
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+               eiusmod tempor incididunt ut labore et dolore magna aliqua';
+        echo 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+        echo 'Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+                irure dolor in reprehenderit in voluptate velit esse cillum 
+                dolore eu fugiat nulla pariatur.';
+        echo 'Tincidunt tortor aliquam nulla facilisi. Et tortor at risus 
+                viverra adipiscing at in. Ac feugiat sed lectus vestibulum 
+                mattis ullamcorper velit. Malesuada fames ac turpis egestas 
+                maecenas pharetra convallis posuere morbi. Sed euismod nisi 
+                porta lorem mollis aliquam.';
+        
+        echo 'Мне очень нравится то, что я делаю и, уверен, буду полезен и 
+               привнесу что-то новое в любую целеустремленную команду!';
+    }
+} 
+                    </code></pre>
+                </section>
+                
+                <section class="main__section">
+                    <h3 id="experience">Опыт работы: <span class="typed-cursor">_</span></h3>
+                    <pre class="line-numbers"><code class="language-js">const Experience = () => {
+
+    return [{
+        freelancer: {
+            yearStart: 'XXXX-XX-XX',
+            yearEnd: 'XXXX-XX-XX',
+            functions: [
+                'Lorem ipsum dolor', 
+                'Lorem ipsum dolor', 
+                'Lorem ipsum dolor', 
+                'Lorem ipsum dolor', 
+                'Lorem ipsum dolor'
+            ]
+        }
+    },
+    {
+        sysadmin: {
+            yearStart: 'XXXX-XX-XX',
+            yearEnd: 'XXXX-XX-XX',
+            workplace: 'Lorem ipsum dolor',
+            position: 'Lorem ipsum dolor',
+            functions: [
+                'Lorem ipsum dolor', 
+                'Lorem ipsum dolor', 
+                'Lorem ipsum dolor'
+            ]
+        }
+    },
+    {
+        freelancer: {
+            yearStart: 'XXXX-XX-XX',
+            yearEnd: 'XXXX-XX-XX',
+            functions: [
+                'Lorem ipsum dolor', 
+                'Lorem ipsum dolor', 
+                'Lorem ipsum dolor', 
+                'Lorem ipsum dolor', 
+                'Lorem ipsum dolor'
+            ]
+        }
+    }];
+
+    function presentTime() {
+        const full = new Date();
+        return `${full.getFullYear()}-${full.getMonth()}-${full.getDay()}`;
+    }
+};
+
+Experience();
+                    </code></pre>
+                </section>
+
+                <section class="main__section">
+                    <h3 id="skills">Что я умею: <span class="typed-cursor">_</span></h3>
+                    <pre class="line-numbers"><code class="language-js">class Skills {}
+
+class ProfSkills extends Skills {
+    constructor() {
+        return {
+            php: {
+                core: '80%',
+                framework: {
+                    symfony: '70%',
+                    laravel: '70%',
+                    yii: '60%',
+                    codeigniter: '60%'
+                },
+                cms: {
+                    modx: '90%',
+                    joomla: '80%',
+                    wordpress: '80%',
+                    opencart: '80%',
+                    prestashop: '60%',
+                    magento: '60%'
+                    
+                }
+            },
+
+            javascript: {
+                es5: '80%',
+                es6: '80%',
+                library: {
+                    react: {
+                        core: '80%'
+                    },
+                    jquery: '90%'
+                },
+                framework: {
+                    vue: '80%',
+                    svelte: '60%',
+                    angular: '50%'
+                },
+                platform: {
+                    node: '70%'
+                }
+            },
+
+            html5: {
+                core: '90%',
+                responsive: true,
+                cross-browser: true
+            },
+
+            css3: {
+                core: '90%',
+                bootstrap: true,
+                materialize: true,
+                tool: {
+                    sass: true
+                }
+            },
+
+            database: {
+                mysql: '80%',
+                mongodb: '60%',
+                mssql: '60%',
+                sqlite: '80%',
+            },
+
+            devtool: {
+                composer: true,
+                npm: true,
+                git (& other VCS): true,
+                webpack: true,
+                phpstorm (& other JetBrains): true,
+                vscode: true,
+                eclipse: true,
+                xampp: true,
+                photoshop: true,
+                illustrator: true
+            },
+
+            os: {
+                windows: '100%',
+                linux: '60%'
+            },
+
+            other_language: {
+                delphi: '70%',
+                java_se: '60%',
+                c_sharp: '50%'
+            }
+
+        }
+    }
+}
+
+class SoftSkills extends Skills {
+    constructor() {
+        return {
+            language: {
+                english: 'intermediate'
+            },
+            
+            tech: {
+                computer: '90%',
+                hardware: '90%',
+                network: '80%',
+            },
+
+            other: {
+                read: [
+                    'sci-fi', 
+                    'technical', 
+                    'non-fiction'
+                ],
+                music: [
+                    'trance', 
+                    'ambient', 
+                    'atmospheric', 
+                    'composition'
+                ],
+                bicycle: '❤'
+            }
+
+        }
+    }
+}
+
+new ProfSkills();
+new SoftSkills();
+                    </code></pre>
+                </section>
+
+                <section class="main__section">
+                    <h3 id="features">Почему именно я? <span class="typed-cursor">_</span></h3>
+                    <ol>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Maecenas accumsan lacus vel facilisis volutpat est velit. Pellentesque sit amet porttitor eget dolor morbi non arcu. Viverra orci sagittis eu volutpat.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Maecenas accumsan lacus vel facilisis volutpat est velit. Pellentesque sit amet porttitor eget dolor morbi non arcu. Viverra orci sagittis eu volutpat.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Maecenas accumsan lacus vel facilisis volutpat est velit. Pellentesque sit amet porttitor eget dolor morbi non arcu. Viverra orci sagittis eu volutpat.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Maecenas accumsan lacus vel facilisis volutpat est velit. Pellentesque sit amet porttitor eget dolor morbi non arcu. Viverra orci sagittis eu volutpat.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Maecenas accumsan lacus vel facilisis volutpat est velit. Pellentesque sit amet porttitor eget dolor morbi non arcu. Viverra orci sagittis eu volutpat.</li>
+                    </ol>
+                </section>
+
+            </main>
+            <!-- /.main -->
+        </div>
+        <!-- /.row -->
+
+        <footer class="footer">
+            <p class="footer__item-green">&#10004; Открыт к предложениям!</p>
+            <p>&copy; 2020</p>
+        </footer>
+        <!-- /.footer -->
+
+        <div class="button-top">
+            <i class="far fa-arrow-alt-circle-up"></i>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- CDN -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script> -->
+    
+    <!-- Local -->
+    <!-- Customize scrollbar -->
+    <script src="./js/simplebar.min.js"></script>
+    <!-- Code highlite -->
+    <script src="./js/prism.js"></script>
+    <!-- Smooth Scroll behavior polyfill -->
+    <script src="./js/smoothscroll.min.js"></script>
+    <!-- App scripst -->
+    <script src="./js/common.js"></script>
+    
+</body>
+</html>
